@@ -95,7 +95,7 @@ public class RandomKittiesBot extends TelegramLongPollingBot {
     }
 
     private void sendHelp(Long chatId) throws TelegramApiException {
-        execute(new SendMessage(chatId, "Please, use on of the next commands: /kitty, /more_kitties, /moooooore_kitties"));
+        execute(new SendMessage(chatId, "Please, use one of the next commands: /kitty, /more_kitties, /moooooore_kitties"));
     }
 
     private void sendPhotosResponse(Long chatId, int amount) throws TelegramApiException {

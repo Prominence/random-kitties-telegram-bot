@@ -1,5 +1,5 @@
 # random-kitties-telegram-bot
-Telegram bot that which the only aim is to send kitties :)
+Telegram bot which the only aim is to send kitties :)
 
 ### Commands
 * **/kitty** - Send one random kitty
